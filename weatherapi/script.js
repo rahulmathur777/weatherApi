@@ -1,5 +1,7 @@
 // let APIKey = "d3963c4bf5764b90ac2192640250609";
 let APIKey = '68eb9a82e650df54c98feebbf88e20d7';
+// let APIKey = 'ef73c80a0c567614be13dd626fdd9c71';
+//    let APIKey = '439d4b804bc8187953eb36d2a8c26a02';
 
 let getWeatherUrl = (lat, lon, APIKey) =>
   `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${APIKey}`;
